@@ -1,0 +1,154 @@
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color:orangered;
+    position: relative;
+    font-size:40px;
+}
+h1 span{
+    position: absolute;
+    right:0;
+    width:0;
+    background:#ffffff;
+  
+    animation:persona 3s infinite alternate ;
+
+}
+@keyframes persona{
+    from{
+        margin: auto;
+        width:100%;
+    }
+ to{
+     width:0;
+ }
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color:orangered;
+    position: relative;
+    font-size:40px;
+}
+h2 span{
+    position: absolute;
+    right:0;
+    width:0;
+    background:#f3f4f5;
+  
+    animation:acerca 2s infinite alternate ;
+
+}
+
+@keyframes acerca{
+    from{
+        margin: auto;
+        width:100%;
+    }
+ to{
+     width:0;
+ }
+}
+.spinner{
+
+    margin: 0 0 0 10px;
+    width: auto;
+  max-height: 50px;
+}
+.spinner :hover{
+    background: black;
+}
+h5{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color:orangered;
+    position: relative;
+    font-size:40px;
+}
+h5 span{
+    position: absolute;
+    right:0;
+    width:0;
+    background:#f3f4f5;
+  
+    animation:objetivo 4s infinite alternate ;
+
+}
+
+ .carousel{
+padding: 0 0 10px;
+margin-top:74px;
+
+}
+
+
+.parrafo{
+
+font-size:12px;
+    width:34%;
+text-align: center;
+
+}
+.container hr{
+margin:5%;
+background: black;
+}
+
+.logo{
+    margin:80px;
+   padding: 0 10px 0 0;
+  justify-content: center;
+}
+/*Footer*/
+.footer{
+    height:50%;
+    padding:20px;
+    background:#323437;
+}
+.footer p{
+    margin: 33px;
+  
+    font-family: "Roboto Slab","Times New Roman",serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+   
+}
+.footer hr{
+    width:95% ;
+    background: rgb(117, 116, 116);
+}
+.letras{
+margin: auto;
+    color: #fff;
+    font-size: 12px;
+  
+text-decoration:none ;
+
+}
+@media screen and (max-width:900px){
+
+    .carousel{
+        margin-top:110px;
+    }
+    }
+
+    @media screen and (max-width:900px){
+
+        .parrafo{
+           
+            font-size:12px;
+                width:100%;
+            text-align: center;       
+            padding:40px 0 40px;
+        }
+        }
+
+    @media screen and(max-width:900px){
+        .logo{
+           
+      
+        }
+
+    }
